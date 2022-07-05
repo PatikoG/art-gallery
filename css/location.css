@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.locphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+
+}
+
+.map-t{
+display: none;
+
+}
+
+.ourlocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px ;
+    height: 72px;
+    background: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
+.ourlocation::before{
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    background-image:url("../art-gallery-website/starter-code/assets/icon-arrow-left.svg") ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: none;
+    content:" ";
+    margin-left: -64px;
+}
+
+.butt2{
+    display: flex;
+    flex-direction: row;
+    border: none; 
+    align-self: flex-start;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+}
+
+
+.infos{
+    width: 375px;
+    height: 493px;
+    background-color: #151515;
+    margin: 0 auto;
+}
+
+.kingstreet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    
+}
+
+.our{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+
+
+.king {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D5966C;
+    margin-top: 48px;
+}
+
+.newport{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+
+.newly{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+footer{
+   
+    background: #D5966C;
+    display: flex;   
+    flex-direction: column;
+}
+
+
+
+
+.instagram{
+    margin-left: 20px;
+    margin-right: 20px;
+  
+  }
+
+
+  .end2{
+    margin-left: 32px; 
+    margin-top:48px ;
+    margin-right: 32px; 
+  }
+
+  footer p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;  
+    color: #151515;
+    margin-bottom:38px;
+    margin-top: 38px;
+}
+
+.map-d{
+    display: none;
+}
+
+
+@media screen and (min-width:750px) {
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.map-m{
+    display: none;
+}
+.map-d{
+    display: none;
+}
+
+.map-t{
+    display: block;
+}
+.infos{
+    width: 768px;
+    display: flex;
+    
+}
+
+.kingstreet{
+    
+    flex-direction: row;
+    
+}
+
+.our{
+    width:223px ;
+    margin-left: 39px;
+    margin-top: 88px;
+}
+
+.newly{
+    width: 398px;
+    height: 112px;
+}
+
+.spacebet{
+    margin-left: 68px;
+    margin-top: 41px;
+}
+
+.end2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end2 p{
+    width: 281px;
+    height: 104px;
+    
+}
+
+
+
+}
+
+
+
+@media screen and (min-width:1440px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box; 
+    }
+
+
+.map-t{
+    display: none;
+
+}
+
+.map-d{
+    display: block;
+}
+
+.infos{
+    width: 1440px;
+    max-width: 100%;
+}
+
+.our{
+    margin-left: 165px;
+    width: 350px;
+    height: 140px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+
+.spacebet{
+margin-left:220px ;
+
+    
+}
+.king{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.newport{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px; 
+}
+
+.newly{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+
+}
+
+
+
+
+
+
+
+
+}

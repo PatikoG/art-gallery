@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background: #ffffff;
+    overflow-x:hidden;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x:hidden;
+    margin: 0 auto;
+}
+
+.margin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+.firsttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.modern{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    width: 343px;
+  
+    margin-top:32px;
+    
+    
+}
+
+.gradmother-t{
+    display: none;
+}
+
+.collection{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 343px;
+    
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px ;
+    height: 72px;
+    background: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.two{
+    display: flex;
+    flex-direction: row-reverse;
+    border: none; 
+    align-self: flex-start;
+    
+}
+
+.firsttext button{
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    background-image:url("../art-gallery-website/starter-code/assets/icon-arrow-right.svg") ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: none;
+}
+
+.yourday{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.art-m{
+    display: none;
+}
+
+
+.yourday art-m{
+   
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.yourday h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    
+    width: 343px;
+    margin-top: 25px ;
+}
+
+
+.yourday p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top:21px;
+    width: 343px;
+}
+
+
+.interior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chair-t{
+    display: none;
+}
+
+.chair{
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.museum-t{
+    display: none;
+}
+
+.museum{
+    margin-bottom: 16px;
+}
+
+.come{
+   width: 343px;
+   height: 293px;
+   background: #151515;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   margin-bottom: 120px;
+}
+
+.come h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;  
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width:295px;
+    height:90px;
+    margin-bottom:24px ;
+}
+
+.come p{
+    width: 295px;
+    height: 84px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+footer{
+  height: 336px;  
+  background: #151515;
+  display: flex;   
+  flex-direction: column;
+  
+
+}
+
+.end{
+  margin-left: 32px; 
+  margin-top:48px ;
+  margin-right: 32px; 
+}
+
+footer p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;  
+    color: #FFFFFF;
+    margin-bottom:38px;
+    margin-top: 38px;
+}
+
+.instagram{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.gradmother-d{
+    display: none;
+}
+
+.art-d{
+    display: none;
+}
+
+.chair-d{
+    display: none;
+}
+
+.museum-d{
+    display: none;
+}
+
+@media screen and (min-width: 750px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+   
+        background: #ffffff;
+        overflow-x:hidden;
+        
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x:hidden;
+
+
+    }
+
+    .gradmother {
+    display: none;
+    }
+
+    .gradmother-t{
+        display: flex;
+    }
+
+    .row{
+       display: flex; 
+
+    }
+
+    .firsttext{
+        transform: translate(-17%);
+    }
+
+    .yourday{
+        display: flex;
+        flex-direction: row-reverse;
+        /* justify-content:space-between; */
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .yourday h1{
+        width: 223px;
+        height: 135px;
+    }
+
+   .yourday p{
+        width: 223px;
+        height: 140px;
+   }
+
+
+
+
+   .chair {
+    display: none;
+
+   }
+   .chair-t{
+    /* height: 720px; */
+    display: block;
+   }
+
+   .interior{
+    grid-row: 1/3;
+    height: 720px;
+   }
+
+
+   .come{
+    width: 280px;
+    height: 396px;
+}
+
+.come h1{
+    width: 223px;
+    height: 90px;
+}
+.come p {
+    width: 223px;
+    height: 112px;
+}
+
+   .museum{
+    display: none;
+   }
+   
+   .museum-t{
+    display: block;
+    width: 280px;
+    height: 313px;
+
+}
+
+   .grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin-top: 11px;
+    grid-column-gap: 11px;
+    grid-row-gap: 11px;
+    }
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center
+}
+    .end p{
+      width: 281px;
+      height: 104px;  
+
+    }
+.gradmother-d{
+    display: none;
+}
+
+.chair-d{
+    display: none;
+}
+
+.museum-d{
+    display: none;
+}
+
+}
+
+
+
+
+@media screen and (min-width:1440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+
+
+    .gradmother-t{
+        display: none;
+    }
+    
+    .gradmother-d{
+        display: block;
+    }
+.black{
+    width: 450px;
+    height: 800px;
+    background: #151515;
+}
+
+.firsttext{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    column-gap: 246px;
+}
+/* .modern{
+    position: absolute;
+} */
+
+.row{
+    align-self: flex-start;
+}
+
+
+.modern{
+    color: white;
+    width: 514px;
+    height: 176px;
+    
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.art-t{
+    display: none;
+}
+.art-d{
+    display: block;
+    margin-right: auto;
+    margin-left: 125px;
+}
+
+.chair-t{
+    display: none;
+}
+
+.chair-d{
+    display: block;
+}
+
+.museum-t{
+    display: none;
+}
+
+.museum-d{
+    display: block;
+}
+
+.come{
+    width: 445px;
+    height: 377px;
+}
+
+
+.grid{
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-top:30px ;
+}
+.end{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.end p{
+    
+    width: 430px;
+    height: 84px;
+}
+
+
+
+.hp h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    width: 350px;
+}
+
+
+.hp p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    width: 350px;
+}
+
+.modern{
+   
+    background: linear-gradient(90deg, rgba(255,255,255,1) 48%, rgba(0,0,0,1) 48%);
+    color: transparent; 
+    -webkit-background-clip: text;
+    margin-right: 95px;
+}
+}
